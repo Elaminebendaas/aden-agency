@@ -27,3 +27,25 @@ header{
     padding: 25px 350px;
     background: rgba(0,0,0, 0.2);
 }
+main{
+
+}
+.main-box{
+    display: flex;
+    align-items: center;
+ 
+    padding: 125px 350px;
+
+}
+.item-1{
+    width: 600px;
+}
+.item-1 > h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    
+}
+.item-1 > p{
+    font-size: 18px;
+}
