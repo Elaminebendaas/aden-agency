@@ -3,20 +3,24 @@
     margin: 0px;
 }
 body{
-    background-image: url(images/royal-blue-background.png);
+    background-color: #fff;
 }
 .aden{
     font-weight: 200;
     font-size: 45px;
 }
+.black-text{
+    color: black;
+}
 .white-text{
     color: #FAFCFF;
 }
 .book-now{
-    padding: 10px 42px;
-    border-radius: 20px;
-    border: blue; 
-    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+    font-size: 14px;
     font-weight: 500;  
 }
 header{
@@ -24,15 +28,17 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 25px 350px;
-    background: rgba(0,0,0, 0.2);
+    background: rgba(0,0,0, 0);
+    margin-bottom: 0px;
 }
 main{
     
 }
 .main-box{
+    background-image: url(images/backgorund_image-tiktok2.png);
     display: flex;
     align-items: center;
-    padding: 135px 350px;
+    padding: 275px 350px;
     overflow: hidden;
 }
 .item-1{
@@ -68,19 +74,33 @@ main{
 .item-1 > p{
     font-size: 18px;
 }
+#stats{
+    text-align: center;
+    background-color: #FAFCFF;
+    margin: 0;
+    padding-top: 35px;
+    font-size: 40px;
+}
 .info-box{
     display: flex;
     justify-content: center;
     gap: 50px;
     background-color: #FAFCFF;
-    margin-top: 35px;
+    margin-top: 0px;
     padding: 60px;
 }
 .info-box > div > h1 {
-    color: blue;
-    font-weight: 400;
+    color: black;
+    font-weight: 500;
     font-size: 64px;
 }
 .info-box > div > p{
     color: black;
+}
+.stats-1{
+    animation: slide 0.7s ease-in;
+
+}
+.stats-2{
+    animation: slideright 0.7s ease-in;
 }
