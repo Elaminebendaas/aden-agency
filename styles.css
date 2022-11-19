@@ -1,5 +1,5 @@
 *{
-    font-family: Poppins;
+    font-family: karla;
     margin: 0px;
 }
 body{
@@ -17,10 +17,11 @@ body{
 }
 .book-now{
     padding: 5px 20px;
-    border-radius: 8px;
+    border-radius: 6px;
     border-style: solid;
     border-color: black;
-    font-size: 14px;
+    background-color: #fff;
+    font-size: 18px;
     font-weight: 500;  
 }
 header{
@@ -38,7 +39,7 @@ main{
     background-image: url(images/backgorund_image-tiktok2.png);
     display: flex;
     align-items: center;
-    padding: 275px 350px;
+    padding: 260px 350px;
     overflow: hidden;
 }
 .item-1{
@@ -46,8 +47,8 @@ main{
     animation: slide 0.7s ease-in;
 }
 .item-1 > h1{
-    font-size: 48px;
-    font-weight: 600;
+    font-size: 60px;
+    font-weight: 900;
     margin-bottom: 25px;
    
 }
@@ -103,4 +104,56 @@ main{
 }
 .stats-2{
     animation: slideright 0.7s ease-in;
+}
+.why-tiktokbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 350px;
+    gap: 150px;
+}
+.why-tiktokbox > div > h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.why-tiktokbox>div>p{
+    font-size: 18px;
+}
+.text-box{
+    width: 450px;
+}
+#playbook{
+    text-align: center;
+    background-color: #FAFCFF;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 25px;
+
+}
+.playbook-box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 90px;
+    background-color: #FAFCFF;
+    padding: 25px;
+}
+.playbook-box > div{
+    width: 225px;
+}
+.playbook-box > div > h2{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.playbook-box >div>p{
+    text-align: center;
+    font-size: 13px;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    
 }
