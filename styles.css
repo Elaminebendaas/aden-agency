@@ -1,0 +1,29 @@
+*{
+    font-family: Poppins;
+    margin: 0px;
+}
+
+body{
+    background-image: url(images/royal-blue-background.png);
+}
+.aden{
+    font-weight: 200;
+    font-size: 45px;
+}
+.white-text{
+    color: #FAFCFF;
+}
+.book-now{
+    padding: 10px 42px;
+    border-radius: 20px;
+    border: blue; 
+    font-size: 18px;
+    font-weight: 500;  
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 350px;
+    background: rgba(0,0,0, 0.2);
+}
