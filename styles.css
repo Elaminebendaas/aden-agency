@@ -2,7 +2,6 @@
     font-family: Poppins;
     margin: 0px;
 }
-
 body{
     background-image: url(images/royal-blue-background.png);
 }
@@ -28,24 +27,60 @@ header{
     background: rgba(0,0,0, 0.2);
 }
 main{
-
+    
 }
 .main-box{
     display: flex;
     align-items: center;
- 
-    padding: 125px 350px;
-
+    padding: 135px 350px;
+    overflow: hidden;
 }
 .item-1{
     width: 600px;
+    animation: slide 0.7s ease-in;
 }
 .item-1 > h1{
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 600;
     margin-bottom: 25px;
-    
+   
 }
+.main-box > div > img{
+    animation: slideright 0.7s ease-in;
+}
+@keyframes slideright {
+    0% {
+         transform: translateX(700px);
+        }
+    100%{
+        transform: skew(0deg);
+    }
+}
+@keyframes slide {
+    0% {
+         transform: translateX(-700px);
+        }
+    100%{
+        transform: skew(0deg);
+    }
+}
+
 .item-1 > p{
     font-size: 18px;
+}
+.info-box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #FAFCFF;
+    margin-top: 35px;
+    padding: 60px;
+}
+.info-box > div > h1 {
+    color: blue;
+    font-weight: 400;
+    font-size: 64px;
+}
+.info-box > div > p{
+    color: black;
 }
