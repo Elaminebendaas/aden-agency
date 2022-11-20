@@ -31,13 +31,13 @@ body{
     color: #fff;
     background-color: black;
     border-color: #fff;
+    height: 100%;
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 350px;
-    background: rgba(0,0,0, 0);
+    padding: 25px 275px;
     margin-bottom: 0px;
 }
 main{
@@ -47,7 +47,7 @@ main{
     background-image: url(images/backgorund_image-tiktok2.png);
     display: flex;
     align-items: center;
-    padding: 260px 350px;
+    padding: 200px 350px;
     overflow: hidden;
 }
 .item-1{
@@ -85,8 +85,9 @@ main{
 }
 #stats{
     text-align: center;
-    background-color: #FAFCFF;
+    background-color: rgb(220,220,220, 0.25);
     margin: 0;
+    font-weight: 900;
     padding-top: 35px;
     font-size: 40px;
 }
@@ -94,7 +95,7 @@ main{
     display: flex;
     justify-content: center;
     gap: 50px;
-    background-color: #FAFCFF;
+    background-color: rgb(220,220,220, 0.25);
     margin-top: 0px;
     padding: 60px;
     padding-bottom: 50px;
@@ -133,7 +134,7 @@ main{
 }
 #playbook{
     text-align: center;
-    background-color: #FAFCFF;
+    background-color: rgb(220,220,220, 0.25);
     margin: 0;
     font-size: 48px;
     font-weight: 700;
@@ -146,7 +147,7 @@ main{
     align-content: center;
     align-items: center;
     gap: 90px;
-    background-color: #FAFCFF;
+    background-color: rgb(220,220,220, 0.25);
     padding: 25px;
     padding-bottom: 60px;
 }
