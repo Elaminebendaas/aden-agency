@@ -85,7 +85,7 @@ main{
 }
 #stats{
     text-align: center;
-    background-color: rgb(220,220,220, 0.25);
+    background-color: #e8efe6;
     margin: 0;
     font-weight: 900;
     padding-top: 35px;
@@ -95,7 +95,7 @@ main{
     display: flex;
     justify-content: center;
     gap: 50px;
-    background-color: rgb(220,220,220, 0.25);
+    background-color: #e8efe6;
     margin-top: 0px;
     padding: 60px;
     padding-bottom: 50px;
@@ -134,7 +134,7 @@ main{
 }
 #playbook{
     text-align: center;
-    background-color: rgb(220,220,220, 0.25);
+    background-color: #e8efe6;
     margin: 0;
     font-size: 48px;
     font-weight: 700;
@@ -147,7 +147,7 @@ main{
     align-content: center;
     align-items: center;
     gap: 90px;
-    background-color: rgb(220,220,220, 0.25);
+    background-color: #e8efe6;
     padding: 25px;
     padding-bottom: 60px;
 }
