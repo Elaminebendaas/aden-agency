@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     font-family: karla;
     margin: 0px;
@@ -89,6 +92,7 @@ main{
     background-color: #FAFCFF;
     margin-top: 0px;
     padding: 60px;
+    padding-bottom: 50px;
 }
 .info-box > div > h1 {
     color: black;
@@ -139,6 +143,7 @@ main{
     gap: 90px;
     background-color: #FAFCFF;
     padding: 25px;
+    padding-bottom: 60px;
 }
 .playbook-box > div{
     width: 225px;
@@ -155,5 +160,17 @@ footer{
     background-color: black;
     color: #fff;
     margin: 0;
-    
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.calendly{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.calendly >h1{
+    text-align: center;
+    font-weight: 700;
+
+    font-size: 48px;
 }
