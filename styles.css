@@ -173,9 +173,68 @@ footer{
 .calendly{
     padding-top: 50px;
     padding-bottom: 150px;
+    margin-bottom: unset;
 }
 .calendly >h1{
     text-align: center;
     font-weight: 700;
     font-size: 48px;
+}
+@media (max-width:768px)  {
+    body{
+        background-color: #fff;
+    }
+    .aden{
+        font-weight: 200;
+        font-size: 24px;
+    }
+    .black-text{
+        color: black;
+    }
+    .white-text{
+        color: #FAFCFF;
+    }
+    .book-now{
+        padding: 3px 20px;
+        border-radius: 6px;
+        border-style: solid;
+        border-color: black;
+        background-color: #fff;
+        font-size: 12px;
+        font-weight: 500;  
+    }
+    .book-now:hover{
+        color: #fff;
+        background-color: black;
+        border-color: #fff;
+        height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        margin-bottom: 0px;
+    }
+    main{
+        
+    }
+    .main-box{
+        background-image: url(images/backgorund_image-tiktok2.png);
+        display: flex;
+        align-items: center;
+        padding: 200px 350px;
+        overflow: hidden;
+    }
+    .item-1{
+        width: 600px;
+        animation: slide 0.7s ease-in;
+    }
+    .item-1 > h1{
+        font-size: 60px;
+        font-weight: 900;
+        margin-bottom: 25px;
+       
+    }
+    
 }
