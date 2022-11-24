@@ -172,7 +172,7 @@ footer{
 }
 .calendly{
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 120px;
     margin-bottom: unset;
 }
 .calendly >h1{
@@ -180,7 +180,15 @@ footer{
     font-weight: 700;
     font-size: 48px;
 }
+#email{
+    text-decoration: underline;
+    color: #FAFCFF;
+}
+
 @media (max-width:768px)  {
+    html, body{
+        overflow-x: hidden;
+    }
     body{
         background-color: #fff;
     }
@@ -223,18 +231,148 @@ footer{
         background-image: url(images/backgorund_image-tiktok2.png);
         display: flex;
         align-items: center;
-        padding: 200px 350px;
+        padding: 50px 20px;
         overflow: hidden;
     }
     .item-1{
-        width: 600px;
+        /*width: 600px;*/
         animation: slide 0.7s ease-in;
     }
     .item-1 > h1{
-        font-size: 60px;
+        font-size: 40px;
+        text-align: center;
         font-weight: 900;
         margin-bottom: 25px;
        
+    }
+    @keyframes slideright {
+        0% {
+             transform: translateX(700px);
+            }
+        100%{
+            transform: skew(0deg);
+        }
+    }
+    @keyframes slide {
+        0% {
+             transform: translateX(-700px);
+            }
+        100%{
+            transform: skew(0deg);
+        }
+    }
+    .item-1 > p{
+        font-size: 16px;
+        text-align: center;
+    }
+    #stats{
+        text-align: center;
+        background-color: #e8efe6;
+        margin: 0;
+        font-weight: 900;
+        padding-top: 35px;
+        font-size: 35px;
+    }
+    .info-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        background-color: #e8efe6;
+        margin-top: 0px;
+        padding: 60px;
+        padding-bottom: 50px;
+    }
+    .info-box > div > h1 {
+        color: black;
+        font-weight: 500;
+        font-size: 64px;
+    }
+    .info-box > div > p{
+        color: black;
+    }
+    .stats-1{
+        animation: slide 0.7s ease-in;
+    
+    }
+    .stats-2{
+        animation: slideright 0.7s ease-in;
+    }
+    .why-tiktokbox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 20px;
+        gap: 20px;
+    }
+    .why-tiktokbox>div>img{
+        width: 350px;
+    }
+    .why-tiktokbox > div > h1{
+        text-align: center;
+        font-size: 60px;
+        font-weight: 800;
+    }
+    .why-tiktokbox>div>p{
+        text-align: center;
+        font-size: 18px;
+    }
+    .text-box{
+        
+    }
+    #playbook{
+        text-align: center;
+        background-color: #e8efe6;
+        margin: 0;
+        font-size: 48px;
+        font-weight: 700;
+        padding-top: 25px;
+    
+    }
+    .playbook-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        gap: 90px;
+        background-color: #e8efe6;
+        padding: 25px;
+        padding-bottom: 60px;
+    }
+    .playbook-box > div{
+        width: 225px;
+    }
+    .playbook-box > div > h2{
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .playbook-box >div>p{
+        text-align: center;
+        font-size: 13px;
+    }
+    footer{
+        background-color: black;
+        color: #fff;
+        margin: 0;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .calendly{
+        padding-top: 50px;
+        padding-bottom: 150px;
+        margin-bottom: unset;
+    }
+    .calendly >h1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 48px;
+    }
+    #email{
+        text-decoration: underline;
+        color: #FAFCFF;
     }
     
 }
